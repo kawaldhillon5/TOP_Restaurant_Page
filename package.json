@@ -1,0 +1,24 @@
+{
+  "name": "top_restaurant_page",
+  "version": "1.0.0",
+  "description": "Dynamic Simple Restaurant Webpage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":  "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kawaldhillon5/TOP_Restaurant_Page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kawaldhillon5/TOP_Restaurant_Page/issues"
+  },
+  "homepage": "https://github.com/kawaldhillon5/TOP_Restaurant_Page#readme",
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
