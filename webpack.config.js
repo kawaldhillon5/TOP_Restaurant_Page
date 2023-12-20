@@ -3,14 +3,14 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
-  entry: './src/index.js',
+  entry: './src/main/index.js',
   devServer: {
     static: './dist',
   },
   devtool: 'inline-source-map',
   plugins: [
     new HtmlWebpackPlugin({
-      title: "TOP Restaurant",
+      template: "./src/main/index.html",
     }),
   ],
   output: {

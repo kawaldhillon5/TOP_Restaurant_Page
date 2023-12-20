@@ -1,0 +1,62 @@
+:root{
+    --primary-color: rgb(84, 171, 247);
+    --secondary-color: rgb(146, 204, 255);
+    
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(./Poppins-Medium.ttf);
+}
+  
+html,body{
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    
+}
+
+body {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1.2fr 9fr 0.5fr;
+    font-family: myFont;
+}
+
+header,footer,#header_links {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    justify-content: space-between;
+}
+
+footer {
+    justify-content: center;
+}
+
+#header_name{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+#header_links {
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.header_link {
+    margin-left: 20px;
+}
+
+footer>span {
+    margin-right: 4px;
+    font-style: italic;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
