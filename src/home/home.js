@@ -15,6 +15,7 @@ const home = function(){
     const leftBottom = document.createElement("div");
     const leftBottomLeft = document.createElement("div");
     const leftBottomRight = document.createElement("div");
+    const rightHead = document.createElement("div");
     const rightTop = document.createElement("div");
     const rightMiddle = document.createElement("div");
     const rightBottom = document.createElement("div");
@@ -43,6 +44,8 @@ const home = function(){
     leftBottomRight.textContent = "- Virginia Woolf";
 
     rightContent.setAttribute("id","home-right");
+    rightHead.setAttribute("id", "right-head");
+    rightHead.classList.add("right-card");
     rightTop.classList.add("right-card");
     rightMiddle.classList.add("right-card");
     rightBottom.classList.add("right-card");
@@ -53,6 +56,7 @@ const home = function(){
     rightMiddleLeft.setAttribute("class", "card-img");
     rightBottomRight.setAttribute("class", "card-img");
     
+    rightHead.textContent = "Our Popular Dishes";
     rightTopLeft.textContent = "Chana masala originated in northern India. “Chana” means chickpea and “masala” refers to a blend of spices";
     rightMiddleRight.textContent = "Dal Makhani id made with Whole Black Lentils and Kidney Beans";
     rightBottomLeft.textContent = "Paneer Bhurji is a Popular dish made with Paneer(cheese)";
@@ -73,6 +77,7 @@ const home = function(){
     leftBottom.appendChild(leftBottomRight);
 
     homeContent.appendChild(rightContent);
+    rightContent.appendChild(rightHead);
     rightContent.appendChild(rightTop);
     rightContent.appendChild(rightMiddle);
     rightContent.appendChild(rightBottom);

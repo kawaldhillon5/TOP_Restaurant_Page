@@ -1,7 +1,7 @@
 :root{
-    --primary-color: #5599f9;
+    --primary-color: rgb(239, 239, 239);
     --secondary-color: rgb(49, 153, 245);
-    --primary-text-color: aliceblue;
+    --primary-text-color: rgb(0, 0, 0);
     
 }
 
@@ -22,7 +22,12 @@ body {
     grid-template-columns: auto;
     grid-template-rows: 1.2fr 9fr 0.5fr;
     font-family: myFont;
+    background-image: url("./223907-P1OHRO-742.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
+
 
 header,footer,#header_links {
     color: var(--primary-text-color);
@@ -48,6 +53,7 @@ footer {
 #header_links {
     justify-content: space-between;
     margin-right: 20px;
+    cursor: pointer;
 }
 
 #content {
@@ -68,5 +74,9 @@ footer>span {
 a {
     color: var(--primary-text-color);
     text-decoration: none;
+}
+
+.selected {
+    border-bottom: black solid;
 }
 
