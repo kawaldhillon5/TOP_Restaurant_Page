@@ -1,7 +1,7 @@
 #main {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 8fr;
+    grid-template-rows: 1fr 15fr;
     gap: 5px;
     text-align: center;
     justify-content: center;
@@ -20,8 +20,8 @@
 
 #menu-card-area {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 5px;
 }
 
