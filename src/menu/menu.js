@@ -22,12 +22,11 @@ const menu = function(){
     ];
 
     const menuCardCreator = function(arr){
-        let l = 0
-        arr[i].forEach(() =>{l = l + 1;})
+        
         const menuItems = document.createElement("div");
         menuItems.classList.add("menu-items");
 
-        for(let j = 0;j<= l; j++){
+        for(let j = 0;j<= arr[i].length; j++){
             let value = (menuItem[i][j]);
             console.log(menuItem[i][j]);
             const text = document.createElement("div")
